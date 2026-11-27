@@ -1,0 +1,7 @@
+@PrimataArchive_Api_HostAddress = http://localhost:5199
+
+GET {{PrimataArchive_Api_HostAddress}}/health
+Accept: application/json
+
+### Swagger
+GET {{PrimataArchive_Api_HostAddress}}/swagger/index.html
